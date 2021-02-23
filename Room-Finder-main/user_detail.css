@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+form {
+    padding: 10px;
+    line-height: 10px
+}
+
+main {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background: beige;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 20px 12px;
+}
+
+p {
+    font-family: Open Sans;
+    color: black;
+    border-bottom: 1.50px solid black;
+    font-family: cursive;
+    color: black;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+
+button:hover {
+    opacity: 0.52;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: black;
+}
+h2{
+    font-size: 50px;
+    text-align: left;
+    padding:30px 100px 30px;
+}
+nav{
+    
+    align-items: center;
+    list-style: none;
+    background-color: #fff;
+    height: 85px;
+    width: 100%;
+    border-bottom: #dbdbdb 1px solid;
+}
+.navLeft{
+    float: left;
+}
+.navRight{
+    float:right;
+    margin-right: 60px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo{
+    height:80px;
+    line-height: 80px;
+    padding: 0 80px 0 80px;
+    float: left;
+}
+
+.detaill{
+    text-align: center;
+    font-size:large;
+    line-height: 20pt;
+}
